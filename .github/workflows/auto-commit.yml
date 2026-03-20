@@ -19,8 +19,8 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "Prince Prajapati"
+          git config user.email "princeprajapati7561@gmail.com"
           git add update.txt
           git commit -m "Auto commit: $(date)" || echo "No changes"
           git push
